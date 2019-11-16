@@ -14,14 +14,14 @@ import gui.*;
 public class Balls {
 	
 	/**  
-    n : nombre de balles */
+    nombre de balles */
 	private static int n=3;
 	/**  
     taille : le rayon des balles */
 	private static int taille = 10;
 	
-	/**  
-    tab_balls_init : les coordonnées initiales des balles */
+	
+	/** Les coordonnées initiales des balles */
 	private static Point[] tab_balls_init = new Point[n];
 	{
 	tab_balls_init[0] = new Point(0, 0);
@@ -43,7 +43,7 @@ public class Balls {
 	Point[] tab = new Point[n];
 	
 	/**  
-    tab : les vitesses des balles */
+    V : les vitesses des balles */
 	Point[] V = new Point[n];
 	
 	
